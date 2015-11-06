@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+       <publish.android.lizalinto.pregnancytracker.Preferences.DatePickerPreference
+            android:key="dueDate_pref"
+            android:title="@string/pref_title_due_date"/>
+    <PreferenceCategory
+        android:title="@string/pref_header_dlp">
+
+
+        <SwitchPreference
+            android:key="switch_pref"
+            android:title="@string/title_switch_pref"
+            android:defaultValue="false"
+            android:summaryOn="ON"
+            android:summaryOff="OFF"
+            android:disableDependentsState="false"/>
+
+        <publish.android.lizalinto.pregnancytracker.Preferences.DatePickerPreference
+            android:key="dlpDate_pref"
+            android:dependency="switch_pref"
+            android:title="@string/dlp_date"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Others">
+        <EditTextPreference
+            android:key="pre_weight"
+            android:title="@string/pref_title_weight"
+            android:hint="@string/pre_weight_hint"
+            android:inputType="number"/>
+
+        <ListPreference
+            android:key="avgCycle_pref"
+            android:title="@string/title_AvgCycle_pref"
+            android:entries="@array/entries_AvgCycle_pref"
+            android:entryValues="@array/entryValues_AvgCycle_pref"
+            android:dialogTitle="@string/dialog_title_AvgCycle_pref"
+            android:defaultValue="28"/>
+
+        </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>

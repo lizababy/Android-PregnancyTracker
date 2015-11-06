@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Pregnancy Tracker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_today_log">Today</string>
+
+    <string name="action_home">Home</string>
+
+    <string name="title_activity_splash_screen">Pregnancy Tracker</string>
+
+    <string name="title_activity_main">Pregnancy Tracker</string>
+    <string name="app_desc">A Perfect Pregnancy Progress Tracker</string>
+    <string name="welcome_name">Pregnancy Tracker</string>
+    <string name="tracker_countDown">Days To Go</string>
+    <string name="current_week">WEEK</string>
+
+
+
+    <string name="pref_title_due_date">Due Date</string>
+    <string name="tracker_dueDate">DUE DATE</string>
+    <string name="pref_header_general">Due Date Settings</string>
+    <string name="waitDays">Days</string>
+    <string name="waitMonths">Month</string>
+    <string name="waitWeeks">Weeks</string>
+    <string name="title_activity_due_date">DueDateActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+     <string name="avg_cycle">Average Cycle Length :</string>
+    <string name="dlp_date">First Day of Last Period:</string>
+    <string name="pref_header_dlp">Calculate Due Date </string>
+    <string name="title_switch_pref">Calculate Due Date</string>
+    <string name="title_AvgCycle_pref">Enter Average Cycle Duration</string>
+    <string name="dialog_title_AvgCycle_pref">Average Cycle in Days</string>
+    <string name="dotImage">badge</string>
+    <string name="title_activity_calendar_detail">Pregnancy Logs</string>
+
+
+    <string name="title_activity_display_contact">Contacts</string>
+
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="street">Street</string>
+    <string name="zip">Zip</string>
+
+    <string name="save">Save Contact</string>
+
+    <string name="deleteContact">Are you sure, you want to delete it?.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit %1$s</string>
+    <string name="pick_status">Choose status of task</string>
+    <string name="symptoms_list_title">General Pregnancy Symptoms</string>
+    <string name="events_list_title">General Pregnancy Tests/Scans/Checks</string>
+    <string name="pick_items_warning">You haven\'t added any %1$s to App %2$s!</string>
+    <string name="pick_item">Pick %1$s</string>
+
+    <string name="delete_warning">Are you sure you want to delete this?</string>
+    <string name="notes_list_title">Notes</string>
+    <string name="Call">Call</string>
+    <string name="call_failed">Could not make a call. Please ensure your device supports phone call</string>
+    <string name="contacts_not_seen">No matching contacts found!You may save contacts to App First!</string>
+    <string name="enter_contacts">Enter Doctors Contacts</string>
+    <string name="pref_title_weight">Pre-pregnancy Weight</string>
+    <string name="pre_weight_hint">Enter weight in lbs </string>
+    <string name="calendar_events">Phone Calendar Events</string>
+    <string name="event_empty">No events in this particular day</string>
+    <string name="calendar_footer_text">Event Marker indicating events saved on Phone Calendar\nHint : Click cell to log Pregnancy details on that day</string>
+    <string name="R.string.Calendar_events_title">Calendar Events</string>
+    <string name="due_date_initial_summary">Set Due Date</string>
+    <string name="data_base_update_failed">Database Update failed!</string>
+    <string name="delete_failed">Deleted failed</string>
+    <string name="are_u_sure">Are you sure</string>
+    <string name="todo_status1">Pending</string>
+    <string name="todo_status2">Completed</string>
+    <string name="dlp_default_summary">Pick first Day of Last Menstrual Cycle</string>
+    <string name="pref_due_date_def_summary">Pick due date</string>
+    <string name="pref_avg_cycle_summary">Enter Average Menstrual Cycle</string>
+    <string name="pref_weight_def_summary">Enter Weight before Pregnancy</string>
+    <string name="edit_text_hint">OR Enter new</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="insert_failed">Database Insert failed!</string>
+    <string name="delete_toast">Deleted Contact of  %1$s  Successfully</string>
+    <string name="update_toast">Updated Contact of  %1$s  Successfully</string>
+    <string name="update">Update</string>
+    <string name="enter">Enter %1$s</string>
+    <string name="add_title">Add %1$s</string>
+    <string name="doctor_name">Doctors name</string>
+    <string name="set">Set</string>
+
+</resources>

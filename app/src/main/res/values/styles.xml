@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="countDownStyle">
+        <item name="android:background">@drawable/circle</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="subHeader">
+        <item name="android:background">@drawable/rounded_rectangle</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">6dip</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+</resources>

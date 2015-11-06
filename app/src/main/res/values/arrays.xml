@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_AvgCycle_pref">
+        <item>24 days</item>
+        <item>25 days</item>
+        <item>26 days</item>
+        <item>27 days</item>
+        <item>28 days</item>
+        <item>29 days</item>
+        <item>30 days</item>
+        <item>31 days</item>
+        <item>32 days</item>
+    </string-array>
+    <string-array name="entryValues_AvgCycle_pref">
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+    </string-array>
+
+    <string-array name="navigationItems">
+        <item>Home</item>
+        <item>Calendar</item>
+        <item>Pregnancy Settings</item>
+        <item>Doctors Contacts</item>
+        <item>Pregnancy Symptoms</item>
+        <item>Pregnancy Events</item>
+        <item>Notes</item>
+
+    </string-array>
+</resources>

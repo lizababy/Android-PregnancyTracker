@@ -1,0 +1,13 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="publish.android.lizalinto.pregnancytracker.Activity.HomeActivity">
+
+    <item
+        android:id="@+id/action_today_log"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="@string/action_today_log"
+        app:showAsAction="withText|ifRoom" />
+
+</menu>

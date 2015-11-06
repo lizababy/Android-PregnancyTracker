@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="publish.android.lizalinto.pregnancytracker"
+    android:installLocation="preferExternal" >
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.call_phone"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="publish.android.lizalinto.pregnancytracker.Activity.SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="publish.android.lizalinto.pregnancytracker.Activity.HomeActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="publish.android.lizalinto.pregnancytracker.Activity.CalendarLogActivity"
+            android:label="@string/title_activity_calendar_detail">
+        </activity>
+        <activity
+            android:name="publish.android.lizalinto.pregnancytracker.Activity.DisplayContactActivity"
+            android:label="@string/title_activity_display_contact" >
+        </activity>
+    </application>
+
+</manifest>
